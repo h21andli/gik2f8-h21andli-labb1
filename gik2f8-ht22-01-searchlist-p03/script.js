@@ -44,7 +44,7 @@ function renderBookList(bookList) {
     e.target.classList.remove('bg-white');
     e.target.classList.add('bg-emerald-100');
 
-    const positionX = (e.clientX + 80) +'px';
+    const positionX = (e.clientX + 50) +'px';
     const positionY = e.clientY + 'px';
 
     const root = document.getElementById('root');
@@ -63,6 +63,6 @@ function renderBookList(bookList) {
       let left = (e.clientX + 50) + 'px';
       let top =e.clientY + 'px';
       li.style.left = left;
-      li.style.top = top
+      li.style.top = top;
     });
   }
